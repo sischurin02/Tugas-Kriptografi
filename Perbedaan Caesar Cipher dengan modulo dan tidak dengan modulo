@@ -1,0 +1,3 @@
+Perbedaannya adalah : jika menggunakan modulo, index abjad dari alfabet akan dibatasi sebanyak 26. Jadi, jika huruf bergeser lebih dari 2 atau ke 26, maka mengulang dari huruf awal. 
+Sedangkan jika tanpa menggunakan modulo, alfabet tidak dibatasi dan jika bergeser lebih dari index 2 atau huruf z, maka yang tampil adalah error
+Jadi, perbedaannya adalah jika menggunakan modulo maka akan mengulangi ke index awal dan jika tanpa modulo maka tidak dibatasi dan tidak bisa kembali ke index awal.
