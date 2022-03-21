@@ -8,7 +8,7 @@ def encode(kalimat,cipher_key):
   for karakter in kalimat:
     if karakter in abjad:
       index_lama = abjad.index(karakter)
-      index_baru = (index_lama + cipher_key ) % len(abjad)
+      index_baru = (index_lama + cipher_key ) % 26
       abjad_baru = abjad[index_baru]
       hasil_encode = hasil_encode + abjad_baru 
     else:
